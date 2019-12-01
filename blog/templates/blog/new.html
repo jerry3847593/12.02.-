@@ -1,0 +1,14 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>new</title>
+    </head>
+    <body>
+        <h1>새글 쓰기</h1>
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" >저장</button>
+    </body>
+    </html>
